@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import ButtonComponent from './components/ButtonComponent';
-import ImageComponent from './components/imageComponent';
+import ImageClassComponent from './components/imageClassComponent';
 
 function App() {
   return (
@@ -16,12 +16,12 @@ function App() {
       class="btn btn-success"
       type="button"
       />
-      <ImageComponent 
+      <ImageClassComponent 
       src="./assets/img/photo-Galaxy.avif"
       alt="Galaxy"
       width="100%"
       />
-      <ImageComponent
+      <ImageClassComponent
       src="./assets/img/Galaxy2.avif"
       alt="altra Galassia"
       width="100%"/>

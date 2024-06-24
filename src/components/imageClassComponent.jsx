@@ -1,6 +1,6 @@
 import React from "react";
 
-class ImageComponent extends React.Component{
+class ImageClassComponent extends React.Component{
     render(){
         console.log("this",  this)
         console.log("Props", this.props)
@@ -11,4 +11,4 @@ class ImageComponent extends React.Component{
     }
 }
 
-export default ImageComponent
+export default ImageClassComponent
